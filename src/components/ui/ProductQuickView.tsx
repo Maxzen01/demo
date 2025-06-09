@@ -71,11 +71,11 @@ const ProductQuickView: React.FC<ProductQuickViewProps> = ({ product, onClose })
             <div className="mb-4">
               {product.discountPrice ? (
                 <div className="flex items-center">
-                  <span className="text-2xl font-bold text-blue-900">${product.discountPrice.toFixed(2)}</span>
-                  <span className="text-lg text-gray-500 line-through ml-3">${product.price.toFixed(2)}</span>
+                  <span className="text-2xl font-bold text-blue-900">₹{product.discountPrice.toFixed(2)}</span>
+                  <span className="text-lg text-gray-500 line-through ml-3">₹{product.price.toFixed(2)}</span>
                 </div>
               ) : (
-                <span className="text-2xl font-bold text-blue-900">${product.price.toFixed(2)}</span>
+                <span className="text-2xl font-bold text-blue-900">₹{product.price.toFixed(2)}</span>
               )}
             </div>
             

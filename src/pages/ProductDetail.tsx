@@ -5,6 +5,7 @@ import { getProductBySlug } from '../data/products';
 import { categories } from '../data/categories';
 import { Product } from '../types';
 import { ShoppingCart, Heart, Share2, Check, Info, Truck, ShieldCheck, RotateCcw } from 'lucide-react';
+import { useCartStore } from '../store/cartStore'; // ⬅ adjust path if needed
 
 interface ProductDetailProps {
   slug: string;
@@ -15,6 +16,8 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ slug }) => {
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState('description');
+
+  const { addItem } = useCartStore(); // ✅ added line to use addItem from cartStore
 
   const increaseQuantity = () => {
     if (product && quantity < product.stock) {
@@ -119,14 +122,14 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ slug }) => {
             <div className="mb-6">
               {product.discountPrice ? (
                 <div className="flex items-center">
-                  <span className="text-3xl font-bold text-blue-900">${product.discountPrice.toFixed(2)}</span>
-                  <span className="text-xl text-gray-500 line-through ml-3">${product.price.toFixed(2)}</span>
+                  <span className="text-3xl font-bold text-blue-900">₹{product.discountPrice.toFixed(2)}</span>
+                  <span className="text-xl text-gray-500 line-through ml-3">₹{product.price.toFixed(2)}</span>
                   <span className="ml-3 bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded">
                     Save {discountPercentage}%
                   </span>
                 </div>
               ) : (
-                <span className="text-3xl font-bold text-blue-900">${product.price.toFixed(2)}</span>
+                <span className="text-3xl font-bold text-blue-900">₹{product.price.toFixed(2)}</span>
               )}
             </div>
             
@@ -165,6 +168,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ slug }) => {
                 
                 <div className="flex-grow">
                   <button 
+                    onClick={() => addItem(product, quantity)} // ✅ updated this line only
                     className="w-full bg-blue-900 hover:bg-blue-800 text-white py-3 px-6 rounded-md transition-colors flex items-center justify-center"
                   >
                     <ShoppingCart size={20} className="mr-2" />
@@ -192,9 +196,9 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ slug }) => {
                 <Truck size={20} className="text-blue-900 flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-medium text-gray-900">Free Shipping</p>
-                  <p className="text-sm text-gray-600">Orders over $50 qualify for free shipping</p>
+                  <p className="text-sm text-gray-600">Orders over ₹50 qualify for free shipping</p>
                 </div>
-              </div>
+              </div>₹
               <div className="flex items-start space-x-3 mb-3">
                 <ShieldCheck size={20} className="text-blue-900 flex-shrink-0 mt-1" />
                 <div>
@@ -256,7 +260,6 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ slug }) => {
                 <p className="text-gray-700">
                   {product.description}
                 </p>
-                {/* Add more detailed description here */}
                 <p className="text-gray-700 mt-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. 
                   Sed euismod, nisl vel ultricies lacinia, nisl nisl aliquam nisl, vel aliquam 
@@ -291,7 +294,6 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ slug }) => {
                 </div>
                 
                 <div className="space-y-6">
-                  {/* Sample reviews */}
                   <div className="border-b border-gray-200 pb-6">
                     <div className="flex justify-between mb-2">
                       <div>

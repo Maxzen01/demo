@@ -6,17 +6,16 @@ const NewsletterSection: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate subscription
     setIsSubmitted(true);
     setEmail('');
   };
 
   return (
-    <div className="bg-blue-900 py-16">
+    <div className="bg-gradient-to-r from-indigo-900 via-purple-900 to-gray-900 py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Subscribe to Our Newsletter</h2>
-          <p className="text-blue-200 mb-8">
+          <p className="text-purple-200 mb-8">
             Stay updated with the latest products, exclusive offers, and tech news.
           </p>
 
@@ -33,7 +32,7 @@ const NewsletterSection: React.FC = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Your email address"
                 required
-                className="flex-1 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="flex-1 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
               />
               <button
                 type="submit"
@@ -44,7 +43,7 @@ const NewsletterSection: React.FC = () => {
             </form>
           )}
 
-          <p className="text-blue-200 text-sm mt-4">
+          <p className="text-purple-300 text-sm mt-4">
             We respect your privacy. Unsubscribe at any time.
           </p>
         </div>

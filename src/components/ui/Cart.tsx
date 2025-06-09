@@ -49,7 +49,7 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
                     <div className="flex-1">
                       <h3 className="font-medium text-gray-900">{item.product.name}</h3>
                       <p className="text-blue-900 font-medium">
-                        ${(item.product.discountPrice || item.product.price).toFixed(2)}
+                        ₹{(item.product.discountPrice || item.product.price).toFixed(2)}
                       </p>
                       <div className="flex items-center mt-2">
                         <button

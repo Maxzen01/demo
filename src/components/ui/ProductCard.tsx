@@ -83,11 +83,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView }) => {
           <div>
             {product.discountPrice ? (
               <div className="flex items-center">
-                <span className="text-lg font-bold text-blue-900">${product.discountPrice.toFixed(2)}</span>
-                <span className="text-sm text-gray-500 line-through ml-2">${product.price.toFixed(2)}</span>
+                <span className="text-lg font-bold text-blue-900">₹{product.discountPrice.toFixed(2)}</span>
+                <span className="text-sm text-gray-500 line-through ml-2">₹{product.price.toFixed(2)}</span>
               </div>
             ) : (
-              <span className="text-lg font-bold text-blue-900">${product.price.toFixed(2)}</span>
+              <span className="text-lg font-bold text-blue-900">₹{product.price.toFixed(2)}</span>
             )}
           </div>
           

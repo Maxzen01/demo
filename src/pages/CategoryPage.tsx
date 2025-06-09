@@ -124,19 +124,19 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ slug }) => {
                 <div className="space-y-2">
                   <label className="flex items-center">
                     <input type="checkbox" className="form-checkbox h-4 w-4 text-blue-900" />
-                    <span className="ml-2 text-gray-700">Under $50</span>
+                    <span className="ml-2 text-gray-700">Under ₹50</span>
                   </label>
                   <label className="flex items-center">
                     <input type="checkbox" className="form-checkbox h-4 w-4 text-blue-900" />
-                    <span className="ml-2 text-gray-700">$50 - $100</span>
+                    <span className="ml-2 text-gray-700">₹50 - ₹100</span>
                   </label>
                   <label className="flex items-center">
                     <input type="checkbox" className="form-checkbox h-4 w-4 text-blue-900" />
-                    <span className="ml-2 text-gray-700">$100 - $500</span>
+                    <span className="ml-2 text-gray-700">₹100 - ₹500</span>
                   </label>
                   <label className="flex items-center">
                     <input type="checkbox" className="form-checkbox h-4 w-4 text-blue-900" />
-                    <span className="ml-2 text-gray-700">$500+</span>
+                    <span className="ml-2 text-gray-700">₹500+</span>
                   </label>
                 </div>
               </div>

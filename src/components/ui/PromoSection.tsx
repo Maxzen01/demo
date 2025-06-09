@@ -14,7 +14,7 @@ const PromoSection: React.FC = () => {
             </div>
             <div>
               <h3 className="font-bold text-lg text-gray-900 mb-2">Free Shipping</h3>
-              <p className="text-gray-600">Enjoy free shipping on all orders over $50</p>
+              <p className="text-gray-600">Enjoy free shipping on all orders over ₹50</p>
             </div>
           </div>
 
