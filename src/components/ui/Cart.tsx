@@ -83,7 +83,7 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
           <div className="border-t p-4">
             <div className="flex justify-between mb-4">
               <span className="font-medium">Total:</span>
-              <span className="font-bold text-blue-900">${getTotal().toFixed(2)}</span>
+              <span className="font-bold text-blue-900">₹{getTotal().toFixed(2)}</span>
             </div>
             <button
               className="w-full bg-blue-900 text-white py-3 rounded-md hover:bg-blue-800 transition-colors"
