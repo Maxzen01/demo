@@ -45,7 +45,7 @@ const HeroSection: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <a
-              href="/mobile-accessories"
+              href="category/mobile-accessories"
               className="bg-gradient-to-r from-yellow-300 to-orange-500 text-blue-900 px-6 py-3 rounded-md font-semibold shadow-md hover:from-orange-400 hover:to-pink-500 hover:text-white transition-all"
             >
               Shop Now
