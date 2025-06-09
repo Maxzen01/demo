@@ -32,8 +32,8 @@ export const products: Product[] = [
     price: 49.99,
     rating: 4.5,
     images: [
-      'https://images.pexels.com/photos/5702351/pexels-photo-5702351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/5702355/pexels-photo-5702355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      'https://openboxwale.in/public/uploads/products/1734923288_Ambrane%20100W%20Fast%20Charging%20Powerbank%201.jpg',
+      'https://openboxwale.in/public/uploads/products/1734923288_Ambrane%20100W%20Fast%20Charging%20Powerbank%204.jpg'
     ],
     specifications: {
       'Capacity': '20,000mAh',
@@ -109,6 +109,312 @@ export const products: Product[] = [
     categoryId: 'mobile-accessories',
     slug: 'premium-phone-case'
   },
+  // Extra Mobile Accessories
+{
+  id: 'ma-006',
+  name: 'Magnetic Wireless Charger Pad',
+  description: '15W fast wireless charger compatible with MagSafe devices, anti-slip surface, LED indicator.',
+  price: 39.99,
+  discountPrice: 29.99,
+  rating: 4.6,
+  images: [
+    'https://vaku.in/cdn/shop/files/nexfold_pdpartboard_1_1024x1024.jpg?v=1742289257'
+  ],
+  specifications: {
+    'Output': '15W/10W/7.5W',
+    'Compatibility': 'Qi / MagSafe',
+    'Connector': 'USB‑C',
+    'LED Indicator': 'Blue',
+    'Warranty': '1 Year'
+  },
+  stock: 85,
+  categoryId: 'mobile-accessories',
+  slug: 'magnetic-wireless-charger-pad'
+},
+{
+  id: 'ma-007',
+  name: 'Bluetooth Car Charger FM Transmitter',
+  description: 'Hands-free car charger with dual USB ports and FM transmitter, supports TF card & AUX.',
+  price: 24.99,
+  rating: 4.4,
+  images: [
+    'https://m.media-amazon.com/images/I/71IvnxI2LTL._SX569_.jpg'
+  ],
+  specifications: {
+    'USB Ports': '2x 5V/2.4A',
+    'FM Range': '88.0–108.0MHz',
+    'Supports': 'AUX, TF card, Bluetooth',
+    'Mic': 'Built-in',
+    'Voltage': '12‑24V'
+  },
+  stock: 60,
+  categoryId: 'mobile-accessories',
+  slug: 'bluetooth-car-charger-fm-transmitter'
+},
+{
+  id: 'ma-008',
+  name: 'Retractable Lightning Cable',
+  description: 'Portable 3‑in‑1 retractable cable with Lightning, USB-C, and Micro USB connectors.',
+  price: 19.99,
+  discountPrice: 14.99,
+  rating: 4.2,
+  images: [
+    'https://m.media-amazon.com/images/I/51JEV+k28+L._SX569_.jpg'
+  ],
+  specifications: {
+    'Length': '1.2m retractable',
+    'Connectors': 'Lightning, USB-C, Micro‑USB',
+    'Material': 'TPE',
+    'Color Options': 'Black, White',
+    'Durability': '≥10,000 bends'
+  },
+  stock: 150,
+  categoryId: 'mobile-accessories',
+  slug: 'retractable-3-in-1-charging-cable'
+},
+{
+  id: 'ma-009',
+  name: 'Portable Mini Speaker',
+  description: 'Waterproof Bluetooth mini speaker with 12-hour battery life and built-in microphone.',
+  price: 49.99,
+  rating: 4.5,
+  images: [
+    'https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwc31b2ad2/JBL_GO_4_HERO_BLUE_48170_x6.png?sw=535&sh=535'
+  ],
+  specifications: {
+    'Battery Life': '12 hours',
+    'Waterproof Level': 'IPX6',
+    'Connectivity': 'Bluetooth 5.0',
+    'Mic': 'Hands-free calling',
+    'Weight': '300g'
+  },
+  stock: 40,
+  categoryId: 'mobile-accessories',
+  slug: 'portable-mini-bluetooth-speaker'
+},
+{
+  id: 'ma-010',
+  name: 'USB-C to HDMI Adapter',
+  description: '4K USB-C to HDMI adapter, plug-and-play, compatible with laptops and phones.',
+  price: 34.99,
+  rating: 4.3,
+  images: [
+    'https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/001/199/928/MFG_CDP2HD4K60_sml%28200x200%29.jpg'
+  ],
+  specifications: {
+    'Resolution': 'Up to 4K@30Hz',
+    'Connector': 'USB‑C male to HDMI female',
+    'Compatibility': 'USB-C DP Alt Mode',
+    'Cable Length': '15cm',
+    'Warranty': '1 Year'
+  },
+  stock: 70,
+  categoryId: 'mobile-accessories',
+  slug: 'usb-c-to-hdmi-adapter'
+},
+{
+  id: 'ma-011',
+  name: 'Adjustable Car Phone Mount',
+  description: '360° rotating air vent phone mount, one-touch locking and release system.',
+  price: 22.99,
+  rating: 4.6,
+  images: [
+    'https://m.media-amazon.com/images/I/81D75XKZHiL._SX679_.jpg'
+  ],
+  specifications: {
+    'Rotation': '360°',
+    'Clamp Width': '55–85mm',
+    'Mounting': 'Air Vent Clip',
+    'Release': 'One-touch',
+    'Material': 'ABS + Silicone'
+  },
+  stock: 120,
+  categoryId: 'mobile-accessories',
+  slug: 'adjustable-car-phone-mount'
+},
+{
+  id: 'ma-012',
+  name: 'Smart Stylus Pen',
+  description: 'Precision stylus pen with palm rejection and magnetic attach for phone/tablet.',
+  price: 59.99,
+  discountPrice: 49.99,
+  rating: 4.7,
+  images: [
+    'https://dailusretail.com/cdn/shop/files/Digital_Stylus_Pen_f_143ce04abf1f0d2ff933b237d5ea399b.jpg?v=1749376205&width=713'
+  ],
+  specifications: {
+    'Tip': '1.0mm fiber',
+    'Features': 'Palm rejection, auto sleep',
+    'Battery Life': '10 hours',
+    'Charging': 'USB-C',
+    'Compatibility': 'iPad, Android'
+  },
+  stock: 55,
+  categoryId: 'mobile-accessories',
+  slug: 'smart-precision-stylus-pen'
+},
+{
+  id: 'ma-013',
+  name: 'Foldable Bluetooth Keyboard',
+  description: 'Ultra-slim foldable Bluetooth keyboard for tablets and smartphones.',
+  price: 69.99,
+  rating: 4.5,
+  images: [
+    'https://m.media-amazon.com/images/I/61MF3pVdO3L.jpg'
+  ],
+  specifications: {
+    'Layout': 'QWERTY full-size',
+    'Connectivity': 'Bluetooth 5.1',
+    'Battery': 'Rechargeable Li-ion',
+    'Material': 'Aluminum shell',
+    'Compatibility': 'iOS, Android, Windows'
+  },
+  stock: 30,
+  categoryId: 'mobile-accessories',
+  slug: 'foldable-bluetooth-keyboard'
+},
+{
+  id: 'ma-014',
+  name: 'USB-C Hub with SD Reader',
+  description: '6-in-1 USB-C hub: HDMI, USB-A, PD charging, SD/microSD slot.',
+  price: 49.99,
+  rating: 4.4,
+  images: [
+    'https://m.media-amazon.com/images/I/61VyVSOQvaL.jpg'
+  ],
+  specifications: {
+    'Ports': 'HDMI, 2x USB-A, USB-C PD, SD, microSD',
+    'HDMI Output': '4K@30Hz',
+    'Power Delivery': '60W',
+    'Cable': '20cm USB-C',
+    'Material': 'Aluminum'
+  },
+  stock: 45,
+  categoryId: 'mobile-accessories',
+  slug: 'usb-c-hub-with-sd-reader'
+},
+{
+  id: 'ma-015',
+  name: 'Gaming Finger Sleeve (Pack of 4)',
+  description: 'Anti-sweat conductive gaming finger sleeve for mobile FPS games.',
+  price: 9.99,
+  rating: 4.3,
+  images: [
+    'https://m.media-amazon.com/images/I/61qTfov7j0L._SX569_.jpg'
+  ],
+  specifications: {
+    'Color': 'Black',
+    'Material': 'Microfiber + conductive mesh',
+    'Pack Size': '4 pieces',
+    'Feature': 'Sweat-resistant',
+    'Size': 'Universal'
+  },
+  stock: 200,
+  categoryId: 'mobile-accessories',
+  slug: 'gaming-finger-sleeve-pack'
+},
+{
+  id: 'ma-016',
+  name: 'Portable Phone UV Sanitizer',
+  description: 'Compact UV LED sanitizer with wireless charging pad inside.',
+  price: 59.99,
+  rating: 4.2,
+  images: [
+    'https://m.media-amazon.com/images/I/51MEMMXu+cL._SX679_.jpg'
+  ],
+  specifications: {
+    'UV LED': '254nm',
+    'Charger': '10W Qi',
+    'Timer': '3 min cycle',
+    'Interior': 'Sterilize up to 99.9%',
+    'Size': 'Fits phones up to 6.7"'
+  },
+  stock: 50,
+  categoryId: 'mobile-accessories',
+  slug: 'portable-uv-sanitizer-phone'
+},
+{
+  id: 'ma-017',
+  name: 'Lens Clip-on Camera Kit',
+  description: 'Universal clip-on lens kit: Wide, Macro, Telephoto + cleaning cloth.',
+  price: 29.99,
+  discountPrice: 24.99,
+  rating: 4.5,
+  images: [
+    'https://m.media-amazon.com/images/I/81V6zqNfhYL._SX679_.jpg'
+  ],
+  specifications: {
+    'Lenses': '0.63x Wide, 15x Macro, 2x Telephoto',
+    'Clip': 'Universal',
+    'Bag Included': 'Yes',
+    'Cleaning Cloth': 'Microfiber',
+    'Warranty': '6 Months'
+  },
+  stock: 80,
+  categoryId: 'mobile-accessories',
+  slug: 'clip-on-lens-camera-kit'
+},
+{
+  id: 'ma-018',
+  name: 'Wireless Car Vent Charger (2-in-1)',
+  description: 'Fast wireless charger integrated in car vent mount, 15W output.',
+  price: 44.99,
+  rating: 4.4,
+  images: [
+    'https://m.media-amazon.com/images/I/61PiCYIjYyL._SX569_.jpg'
+  ],
+  specifications: {
+    'Wireless Output': '15W',
+    'Mount': 'Air Vent clip',
+    'Rotation': '360°',
+    'Face Detection': 'Infrared sensor',
+    'Compatibility': 'Qi devices'
+  },
+  stock: 70,
+  categoryId: 'mobile-accessories',
+  slug: 'wireless-vent-charger-car'
+},
+{
+  id: 'ma-019',
+  name: 'USB-C OTG Flash Drive (128GB)',
+  description: 'Dual-interface flash drive with USB-C and USB-A connectors.',
+  price: 24.99,
+  rating: 4.6,
+  images: [
+    'https://m.media-amazon.com/images/I/61pq9MKVvcL._SX569_.jpg'
+  ],
+  specifications: {
+    'Capacity': '128 GB',
+    'Connectors': 'USB‑C & USB‑A',
+    'Read Speed': 'Up to 100 MB/s',
+    'Encryption': 'AES-256 options',
+    'Warranty': '1 Year'
+  },
+  stock: 100,
+  categoryId: 'mobile-accessories',
+  slug: 'usb-c-otg-flash-drive-128gb'
+},
+{
+  id: 'ma-020',
+  name: 'Neckband Bluetooth Earphones',
+  description: 'Neckband-style Bluetooth earphones with bass boost and 16h battery life.',
+  price: 59.99,
+  rating: 4.5,
+  images: [
+    'https://m.media-amazon.com/images/I/41GnWg6R2rL.jpg'
+  ],
+  specifications: {
+    'Battery Life': '16 hours',
+    'Connectivity': 'Bluetooth 5.2',
+    'Features': 'Bass boost, voice assistant',
+    'Standby': '400 hours',
+    'Warranty': '1 Year'
+  },
+  stock: 90,
+  categoryId: 'mobile-accessories',
+  slug: 'neckband-bluetooth-earphones'
+},
+
   
 
   // Branded Mobiles
@@ -168,8 +474,8 @@ export const products: Product[] = [
     discountPrice: 1099.99,
     rating: 4.8,
     images: [
-      'https://images.pexels.com/photos/7034254/pexels-photo-7034254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/7034502/pexels-photo-7034502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTpjCud5vf-xrA65IvmjpwCn3Br-nzGF7cnTqRwvNeYTJB2GCWkO7xT1LTFavEZaB7_qCZaltK6P_zYCp04pwCQjjytxiGURk62ED9NUuSO_KpBAIlee1C08w',
+      'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSWck6irE_9VyDk-8Cw-rb1DBrtI4Jvt3LDZO6LnY60G7fZiavuqXE5pwPALA2Kkslfcb9LcH2ihj8FVxXtyPjzfrJ_8FGJorn8WwxcOrM69KIJXBwlHyO6'
     ],
     specifications: {
       'Display': '6.8" Dynamic AMOLED 2X',
@@ -214,7 +520,7 @@ export const products: Product[] = [
     discountPrice: 749.99,
     rating: 4.7,
     images: [
-      'https://images.pexels.com/photos/12040999/pexels-photo-12040999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      'https://m.media-amazon.com/images/I/71YzJwmRFCL._SX569_.jpg'
     ],
     specifications: {
       'Display': '6.7" AMOLED LTPO 120Hz',
@@ -229,6 +535,231 @@ export const products: Product[] = [
     categoryId: 'branded-mobiles',
     slug: 'oneplus-12'
   },
+  {
+  id: 'bm-006',
+  name: 'Moto Edge 50 Ultra',
+  description: 'Premium design with a powerful camera system and curved OLED display.',
+  price: 699.99,
+  discountPrice: 649.99,
+  rating: 4.5,
+  images: [
+    'https://m.media-amazon.com/images/I/71m+dNHzoGL._SX679_.jpg'
+  ],
+  specifications: {
+    'Display': '6.7" pOLED 144Hz',
+    'Processor': 'Snapdragon 8 Gen 3',
+    'RAM': '12GB',
+    'Storage': '512GB',
+    'Camera': 'Triple 50MP + 50MP + 64MP',
+    'Battery': '4500mAh',
+    'OS': 'Android 14'
+  },
+  stock: 25,
+  categoryId: 'branded-mobiles',
+  slug: 'moto-edge-50-ultra'
+},
+{
+  id: 'bm-007',
+  name: 'Realme GT 5 Pro',
+  description: 'Power-packed flagship phone with excellent performance and design.',
+  price: 749.99,
+  rating: 4.4,
+  images: [
+    'https://images-cdn.ubuy.co.in/659e8f2b02f8a52c11157ef1-oppo-realme-gt5-pro-5g-smartphone.jpg'
+  ],
+  specifications: {
+    'Display': '6.78" AMOLED 144Hz',
+    'Processor': 'Snapdragon 8 Gen 3',
+    'RAM': '16GB',
+    'Storage': '512GB',
+    'Camera': 'Triple 50MP + 50MP + 8MP',
+    'Battery': '5400mAh',
+    'OS': 'Android 14'
+  },
+  stock: 30,
+  categoryId: 'branded-mobiles',
+  slug: 'realme-gt-5-pro'
+},
+{
+  id: 'bm-008',
+  name: 'Vivo X100 Pro',
+  description: 'Elegant design with ZEISS optics and stunning camera features.',
+  price: 899.99,
+  discountPrice: 849.99,
+  rating: 4.6,
+  images: [
+    'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR2tBFrz5T8dIgFb0b47p0PvuyjIrXRUZNSoFFOHnVqmdx_hjuoKUGLq4ZZ_WNsgC78rSVsk0KynXd9s9JGf9aDKaWiLRf3B4aCb-Pq7EY&usqp=CAc'
+  ],
+  specifications: {
+    'Display': '6.78" AMOLED 120Hz',
+    'Processor': 'MediaTek Dimensity 9300',
+    'RAM': '16GB',
+    'Storage': '512GB',
+    'Camera': 'Triple 50MP + 50MP + 64MP',
+    'Battery': '5400mAh',
+    'OS': 'Android 14'
+  },
+  stock: 20,
+  categoryId: 'branded-mobiles',
+  slug: 'vivo-x100-pro'
+},
+{
+  id: 'bm-009',
+  name: 'Nothing Phone (2)',
+  description: 'Unique transparent design with clean Android experience.',
+  price: 599.99,
+  rating: 4.5,
+  images: [
+    'https://img5.gadgetsnow.com/gd/images/products/additional/large/G454297_View_1/mobiles/smartphones/nothing-phone-2-512-gb-white-12-gb-ram-.jpg'
+  ],
+  specifications: {
+    'Display': '6.7" OLED 120Hz',
+    'Processor': 'Snapdragon 8+ Gen 1',
+    'RAM': '12GB',
+    'Storage': '256GB',
+    'Camera': 'Dual 50MP + 50MP',
+    'Battery': '4700mAh',
+    'OS': 'Android 14'
+  },
+  stock: 34,
+  categoryId: 'branded-mobiles',
+  slug: 'nothing-phone-2'
+},
+{
+  id: 'bm-010',
+  name: 'iQOO 12 5G',
+  description: 'High-performance gaming smartphone with immersive display.',
+  price: 649.99,
+  discountPrice: 619.99,
+  rating: 4.6,
+  images: [
+    'https://m.media-amazon.com/images/I/619lW2YtVhL._SX679_.jpg'
+  ],
+  specifications: {
+    'Display': '6.78" AMOLED 144Hz',
+    'Processor': 'Snapdragon 8 Gen 3',
+    'RAM': '16GB',
+    'Storage': '512GB',
+    'Camera': 'Triple 50MP + 50MP + 64MP',
+    'Battery': '5000mAh',
+    'OS': 'Android 14'
+  },
+  stock: 29,
+  categoryId: 'branded-mobiles',
+  slug: 'iqoo-12-5g'
+},
+{
+  id: 'bm-011',
+  name: 'ASUS ROG Phone 7',
+  description: 'Ultimate gaming phone with cooling system and high-refresh display.',
+  price: 999.99,
+  rating: 4.7,
+  images: [
+    'https://www.triveniworld.com/cdn/shop/products/asus-rog-7-5g-dual-sim-512gb-phantom-black-16gb-ram-refurbished-triveni-world-1.jpg?v=1736283231&width=1100'
+  ],
+  specifications: {
+    'Display': '6.78" AMOLED 165Hz',
+    'Processor': 'Snapdragon 8 Gen 2',
+    'RAM': '16GB',
+    'Storage': '512GB',
+    'Camera': 'Triple 50MP + 13MP + 5MP',
+    'Battery': '6000mAh',
+    'OS': 'Android 13'
+  },
+  stock: 19,
+  categoryId: 'branded-mobiles',
+  slug: 'rog-phone-7'
+},
+{
+  id: 'bm-012',
+  name: 'Xiaomi 14 Ultra',
+  description: 'Flagship photography phone with Leica lenses and sleek design.',
+  price: 949.99,
+  rating: 4.6,
+  images: [
+    'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSLB2sYUXJlfA-CO6oJQ1QFGqvVnLva6jAhDTzNQ87cQeLOGK_7hnpKLEm8RCrAXLJMxgNwEWxedLC_nmDpPbJPE4_-UypGEW-trKjUapVRvGw8v5Doxxg6ODNnseIEf3cYfkl8lmVlKg&usqp=CAc'
+  ],
+  specifications: {
+    'Display': '6.73" AMOLED 120Hz',
+    'Processor': 'Snapdragon 8 Gen 3',
+    'RAM': '12GB',
+    'Storage': '512GB',
+    'Camera': 'Quad 50MP',
+    'Battery': '5300mAh',
+    'OS': 'Android 14'
+  },
+  stock: 24,
+  categoryId: 'branded-mobiles',
+  slug: 'xiaomi-14-ultra'
+},
+{
+  id: 'bm-013',
+  name: 'Honor Magic6 Pro',
+  description: 'AI-powered features with futuristic design and incredible zoom.',
+  price: 1099.99,
+  discountPrice: 999.99,
+  rating: 4.5,
+  images: [
+    'https://pmcjewellery.co.za/cdn/shop/files/EDA006183202C.jpg?v=1715603057&width=713'
+  ],
+  specifications: {
+    'Display': '6.8" OLED 120Hz',
+    'Processor': 'Snapdragon 8 Gen 3',
+    'RAM': '12GB',
+    'Storage': '512GB',
+    'Camera': 'Triple 50MP + 50MP + 180MP',
+    'Battery': '5600mAh',
+    'OS': 'Android 14'
+  },
+  stock: 21,
+  categoryId: 'branded-mobiles',
+  slug: 'honor-magic6-pro'
+},
+{
+  id: 'bm-014',
+  name: 'Sony Xperia 1 V',
+  description: 'Professional-grade camera phone with 4K OLED display and cinematic quality.',
+  price: 1199.99,
+  rating: 4.4,
+  images: [
+    'https://unboxyourmobile.com/image/cache/catalog/Fold6/sony-xperia-1-iv-Black-1000x1000.jpg'
+  ],
+  specifications: {
+    'Display': '6.5" 4K OLED 120Hz',
+    'Processor': 'Snapdragon 8 Gen 2',
+    'RAM': '12GB',
+    'Storage': '256GB',
+    'Camera': 'Triple 48MP + 12MP + 12MP',
+    'Battery': '5000mAh',
+    'OS': 'Android 13'
+  },
+  stock: 18,
+  categoryId: 'branded-mobiles',
+  slug: 'sony-xperia-1-v'
+},
+{
+  id: 'bm-015',
+  name: 'Samsung Galaxy Z Fold5',
+  description: 'Foldable phone with multitasking features and immersive display.',
+  price: 1799.99,
+  rating: 4.6,
+  images: [
+    'https://elcytec.com/wp-content/uploads/2024/02/elcytec_samsung_galaxy_z_fold_5_icy_blue_2-600x600.webp'
+  ],
+  specifications: {
+    'Display': '7.6" Foldable AMOLED 120Hz',
+    'Processor': 'Snapdragon 8 Gen 2',
+    'RAM': '12GB',
+    'Storage': '512GB',
+    'Camera': 'Triple 50MP + 12MP + 10MP',
+    'Battery': '4400mAh',
+    'OS': 'Android 13'
+  },
+  stock: 15,
+  categoryId: 'branded-mobiles',
+  slug: 'galaxy-z-fold5'
+},
+
 
   // Electronic Gadgets
   {
@@ -282,7 +813,7 @@ export const products: Product[] = [
     discountPrice: 219.99,
     rating: 4.7,
     images: [
-      'https://images.pexels.com/photos/5053836/pexels-photo-5053836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      'https://m.media-amazon.com/images/I/51LxC0OwABL._SX679_.jpg'
     ],
     specifications: {
       'Active Area': '10 x 6.25 inches',
@@ -302,7 +833,7 @@ export const products: Product[] = [
     price: 129.99,
     rating: 4.4,
     images: [
-      'https://images.pexels.com/photos/5054540/pexels-photo-5054540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      'https://m.media-amazon.com/images/I/81192XA5SxL._SX679_.jpg'
     ],
     specifications: {
       'Print Size': '2 x 3 inches',
@@ -323,7 +854,7 @@ export const products: Product[] = [
     discountPrice: 24.99,
     rating: 4.3,
     images: [
-      'https://images.pexels.com/photos/3690330/pexels-photo-3690330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      'https://m.media-amazon.com/images/I/71+JBRaVnaL._AC_UL320_.jpg'
     ],
     specifications: {
       'Range': 'Up to 200 feet',
@@ -336,6 +867,110 @@ export const products: Product[] = [
     categoryId: 'electronic-gadgets',
     slug: 'smart-key-finder'
   },
+  {
+  id: 'eg-006',
+  name: 'Wireless Charging Pad',
+  description: 'Fast wireless charging pad compatible with all Qi-enabled devices.',
+  price: 39.99,
+  discountPrice: 29.99,
+  rating: 4.4,
+  images: [
+    'https://poshace.com/media/catalog/product/cache/21c1d50313b949a8e4decbcb2de49f6b/W/i/Wireless-Charger-for-Samsung-Charging-Station-for-Samsung-Galaxy-S24-UltraS24S24S23-UltraS23S23S22Note-20Z-Fl-B091SK8KL3_1.jpg'
+  ],
+  specifications: {
+    'Charging Power': '15W',
+    'Compatibility': 'Qi-enabled devices',
+    'Connector Type': 'USB-C',
+    'Material': 'Aluminum alloy + tempered glass',
+    'LED Indicator': 'Yes'
+  },
+  stock: 75,
+  categoryId: 'electronic-gadgets',
+  slug: 'wireless-charging-pad'
+},
+{
+  id: 'eg-007',
+  name: 'Smart Home Security Camera',
+  description: 'Wi-Fi-enabled security camera with night vision and motion detection.',
+  price: 99.99,
+  rating: 4.6,
+  images: [
+    'https://poshace.com/media/catalog/product/cache/21c1d50313b949a8e4decbcb2de49f6b/A/m/Amcrest-UltraHD-4K-8MP-Dome-POE-IP-Camera-3840x2160-98ft-NightVision-28mm-Lens-IP67-Weatherproof-125-FOV-256G-B07QHD7LT2.jpg'
+  ],
+  specifications: {
+    'Resolution': '1080p HD',
+    'Night Vision': 'Infrared up to 30ft',
+    'Field of View': '120° wide-angle',
+    'Storage': 'Cloud & microSD',
+    'App Support': 'iOS, Android'
+  },
+  stock: 53,
+  categoryId: 'electronic-gadgets',
+  slug: 'smart-home-security-camera'
+},
+{
+  id: 'eg-008',
+  name: 'Mini Projector',
+  description: 'Portable mini projector for home cinema and presentations.',
+  price: 149.99,
+  discountPrice: 129.99,
+  rating: 4.2,
+  images: [
+    'https://aaryavglobalstores.in/wp-content/uploads/2025/02/81Y8tOdeB6L_AC_SX679_.jpg'
+  ],
+  specifications: {
+    'Display': '1080p Full HD supported',
+    'Brightness': '6000 lumens',
+    'Projection Size': '40–200 inches',
+    'Connectivity': 'HDMI, USB, AV, TF card',
+    'Built-in Speaker': 'Yes'
+  },
+  stock: 48,
+  categoryId: 'electronic-gadgets',
+  slug: 'mini-projector'
+},
+{
+  id: 'eg-009',
+  name: 'Noise Cancelling Earbuds',
+  description: 'Wireless earbuds with active noise cancellation and immersive sound.',
+  price: 129.99,
+  rating: 4.5,
+  images: [
+    'https://m.media-amazon.com/images/I/51h7CQTRJ1L._SX569_.jpg'
+  ],
+  specifications: {
+    'Battery Life': '8 hours (32h with case)',
+    'ANC': 'Active Noise Cancellation',
+    'Connectivity': 'Bluetooth 5.3',
+    'Water Resistance': 'IPX5',
+    'Controls': 'Touch-sensitive'
+  },
+  stock: 62,
+  categoryId: 'electronic-gadgets',
+  slug: 'noise-cancelling-earbuds'
+},
+{
+  id: 'eg-010',
+  name: 'Smart Light Bulb',
+  description: 'Color-changing smart bulb controlled via app or voice assistant.',
+  price: 19.99,
+  discountPrice: 14.99,
+  rating: 4.3,
+  images: [
+    'https://m.media-amazon.com/images/I/31WrzxlCJ0L._SX342_SY445_QL70_FMwebp_.jpg'
+  ],
+  specifications: {
+    'Brightness': '800 lumens',
+    'Color Options': '16 million colors',
+    'Voice Control': 'Alexa, Google Assistant',
+    'App Control': 'iOS, Android',
+    'Power Usage': '9W'
+  },
+  stock: 95,
+  categoryId: 'electronic-gadgets',
+  slug: 'smart-light-bulb'
+},
+
 
   // Electronics
   {
@@ -346,8 +981,8 @@ export const products: Product[] = [
     discountPrice: 1799.99,
     rating: 4.8,
     images: [
-      'https://images.pexels.com/photos/5264894/pexels-photo-5264894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/5264574/pexels-photo-5264574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      'https://www.ysvara.com/cdn/shop/files/81saydXbVzL.jpg?height=940&v=1740164847',
+      'https://www.ysvara.com/cdn/shop/files/41FDZeHMGxL.jpg?height=350&v=1740164847'
     ],
     specifications: {
       'Display': '65" OLED 4K UHD',
@@ -369,7 +1004,7 @@ export const products: Product[] = [
     price: 79.99,
     rating: 4.5,
     images: [
-      'https://images.pexels.com/photos/4219529/pexels-photo-4219529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      'https://images.wiautomation.com/public/images/landing/anticipa/product/23_03_2023_11_52_54_NDP_5502_Z30L_Bosch.jpg'
     ],
     specifications: {
       'Resolution': '1080p HD',
@@ -391,7 +1026,7 @@ export const products: Product[] = [
     discountPrice: 299.99,
     rating: 4.6,
     images: [
-      'https://images.pexels.com/photos/4295841/pexels-photo-4295841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      'https://m.media-amazon.com/images/I/51FGenr910L._SX679_.jpg'
     ],
     specifications: {
       'Suction Power': '2700Pa',
@@ -435,7 +1070,7 @@ export const products: Product[] = [
     discountPrice: 129.99,
     rating: 4.4,
     images: [
-      'https://images.pexels.com/photos/6205626/pexels-photo-6205626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      'https://somethingsbrewing.in/cdn/shop/files/DeLonghi_Ecam290.61.B_Magnifica_Evo_Fully_Automatic_Coffee_Machine_Black.jpg?v=1737030537&width=1240'
     ],
     specifications: {
       'Capacity': '12 cups',
@@ -448,7 +1083,8 @@ export const products: Product[] = [
     stock: 40,
     categoryId: 'electronics',
     slug: 'smart-coffee-maker'
-  }
+  },
+  
 ];
 
 export const getProductsByCategory = (categoryId: string): Product[] => {
